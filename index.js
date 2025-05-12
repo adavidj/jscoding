@@ -23,11 +23,18 @@
 //     alert("Don't forget umbrella");
 // }
 
-var num = Number(prompt('Enter a number greater than 10'));
+// var num = Number(prompt('Enter a number greater than 10'));
 
-if (num <= 10) {
-   alert('Invalid input');
-}   
-else {
-    alert(num);
+// if (num <= 10) {
+//    alert('Invalid input');
+// }   
+// else {
+//     alert(num);
+// }
+
+function reusableFunction(a, b){
+    console.log(a+b);
 }
+
+reusableFunction(5, 2);
+ 
