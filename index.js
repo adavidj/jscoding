@@ -1,4 +1,25 @@
 // // 
+function estPalindrome(mot){
+
+    //Inverser un mot
+    let motInverse = mot.split('').reverse().join('');
+
+    return mot === motInverse;
+}
+
+function verifierPalindrome(){
+    let mot = prompt("Entrer un mot: ");
+    
+    if(estPalindrome(mot)){
+        alert(`"${mot}" est un palindrome`)
+    }
+    else{
+        alert(`"${mot}" est un palindrome`)
+    }
+}
+
+verifierPalindrome();
+
 
 // document.write('Hello World!<br>JavaScript is awesome.');
 
@@ -32,9 +53,10 @@
 //     alert(num);
 // }
 
-function reusableFunction(a, b){
-    console.log(a+b);
-}
+// function reusableFunction(a, b){
+//     console.log(a+b);
+// }
 
-reusableFunction(5, 2);
+// reusableFunction(5, 2);
+
  
